@@ -58,8 +58,7 @@ def main():
         elif file == 'cdw_sapp_loan_application':
             new_df = transform_loan(df)
 
-        print(
-            '_' * 150, f"\nData extraction success. \nData transformation success. \nDisplaying new dataframe {file}.")
+        print( '_' * 150, f"\nData extraction success. \nData transformation success. \nDisplaying new dataframe {file}.")
         new_df.printSchema()
         new_df.show(20, truncate=False)
 
