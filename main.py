@@ -6,7 +6,7 @@ from src.etl.load import *
 from src.database.db_cnx import *
 from src.database.db_query import *
 from src.database.db_visualization import *
-# from src.visualization.dash_app import dash_app*
+# from src.visualization.dash_app import *
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
@@ -59,7 +59,8 @@ def main():
         elif file == 'cdw_sapp_loan_application':
             new_df = transform_loan(df)
 
-        print('_'* 150, f"\nData extraction success. \nData transformation success. \nDisplaying new dataframe {file}.")
+        print(
+            '_' * 150, f"\nData extraction success. \nData transformation success. \nDisplaying new dataframe {file}.")
         new_df.printSchema()
         new_df.show(20, truncate=False)
 
@@ -80,9 +81,6 @@ def main():
         print("An active Spark session is available.")
     else:
         print("Session has ended.")
-
-    # # start the Dash Plotly app
-    # dash_app.run_app()
 
 
 if __name__ == "__main__":
