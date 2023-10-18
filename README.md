@@ -31,15 +31,15 @@ This project uses the following technologies to build and manage an ETL piepline
     - On Mac: 
         - 'python -m venv venv' followed by 'source venv/bin/activate'
 3. Install the required libraries by running:
-    - pip install -r requirements.txt
+    - 'pip install -r requirements.txt'
 4. Execute the main script:
-    - python main.py
+    - 'python main.py'
 
 ## Some Output Preview
 
 ![interactive query](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Front%20end%20console%20sample%20output.PNG?raw=true)
 
-![data visualization](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Data%20visualization%20sample%20output.PNG?raw=true)
+<img src="https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Data%20visualization%20sample%20output.PNG?raw=true" width="450" height="500">
 
 ## Possoble Improvements
 
