@@ -11,7 +11,7 @@
 
 ## Overview
 
-This project uses the following technologies to build and manage an ETL piepline for a [Credit Card dataset](https://github.com/kpan415/Finance_ETL_Pipeline/tree/main/data) and a [Loan Application dataset](https://raw.githubusercontent.com/platformps/LoanDataset/main/loan_data.json). In this project, PySpark features and functions are used to extract, transform, and load data into a MySQL Database. The stored data is subsequently utilized for [interactive querying and generating visualizations](#some-output-preview). For more details, please check out the [project requirement file](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/CAP%20350%20-%20Data%20Engineering%20-%20Capstone%20Project%20Requirements%20Document.docx).
+This project uses the following technologies to build and manage an ETL pipeline for a [Credit Card dataset](https://github.com/kpan415/Finance_ETL_Pipeline/tree/main/data) and a [Loan Application dataset](https://raw.githubusercontent.com/platformps/LoanDataset/main/loan_data.json). In this project, PySpark features and functions are used to extract, transform, and load data into a MySQL Database. The stored data is subsequently utilized for [interactive querying and generating visualizations](#some-output-preview). For more details, please check out the [project requirement file](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/CAP%20350%20-%20Data%20Engineering%20-%20Capstone%20Project%20Requirements%20Document.docx).
 
 - Python (Requests, MySQL Connector, Tabulate)
 - MySQL Database
