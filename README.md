@@ -20,7 +20,7 @@ This project uses the following technologies to build and manage an ETL piepline
 
 ## Workflow Diagram
 
-!(https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/ETL%20workflow%20diagram.jpg?raw=true)
+![workflow](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/ETL%20workflow%20diagram.jpg?raw=true)
 
 ## Getting Started
 
@@ -37,9 +37,9 @@ This project uses the following technologies to build and manage an ETL piepline
 
 ## Some Output Preview
 
-!(https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Front%20end%20console%20sample%20output.PNG?raw=true)
+![interactive query](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Front%20end%20console%20sample%20output.PNG?raw=true)
 
-!(https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Data%20visualization%20sample%20output.PNG?raw=true)
+![data visualization](https://github.com/kpan415/Finance_ETL_Pipeline/blob/main/src/visualization/Data%20visualization%20sample%20output.PNG?raw=true)
 
 ## Possoble Improvements
 
